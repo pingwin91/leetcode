@@ -13,7 +13,7 @@ def romanToInt(s: str) -> int:
         else:
             ans += dictr[s[i]]
     ans += dictr[s[-1]]
-    return int(ans)
+    return ans
 
 print(romanToInt("III"))
 print(romanToInt("LVIII"))
